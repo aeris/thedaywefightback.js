@@ -45,7 +45,7 @@ var _tdwfb_config = (typeof tdwfb_config  !== 'undefined') ? tdwfb_config  : {};
 (function (window, widgetConfig) {
   // Do configuration
   widgetConfig.show_style = widgetConfig.show_style || 'banner';
-  widgetConfig.greeting = widgetConfig.greeting || 'Dear Internet';
+  widgetConfig.greeting = widgetConfig.greeting || 'Cher Internet';
   widgetConfig.debug = widgetConfig.debug || false;
   widgetConfig.localAssets = widgetConfig.localAssets || false;
   widgetConfig.callOnly = widgetConfig.callOnly || false;
@@ -70,8 +70,7 @@ var _tdwfb_config = (typeof tdwfb_config  !== 'undefined') ? tdwfb_config  : {};
   if (widgetConfig.localAssets) {
     ASSET_URL = '../thedaywefightback/';
   } else {
-    ASSET_URL = '//d1agz031tafz8n.cloudfront.net/thedaywefightback.js' +
-      '/thedaywefightback/';
+    ASSET_URL = '//imirhil.fr/thedaywefightback/';
   }
 
   // Cookie helpers, taken from w3schools
